@@ -1,11 +1,12 @@
 # Libraries
-import unitest
+import unittest
+
 # Local module
 from tensorflowModelsForCryptotrading import *
 
 # TODO: Complete unittests
 
-class VanillaNeuralNetwork_test(unitest.TestCase):
+class VanillaNeuralNetwork_test(unittest.TestCase):
 	def setUp(self):
 		self.nn = VanillaNeuralNetwork()
 
@@ -17,5 +18,5 @@ class VanillaNeuralNetwork_test(unitest.TestCase):
 		# self.assertEquals()
 
 if __name__ == "__main__":
-	unitest.main()
+	unittest.main()
 	
